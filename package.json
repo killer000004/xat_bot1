@@ -1,0 +1,21 @@
+{
+  "name": "parent-letter-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot: talaba-ota-ona xat yetkazish tizimi (websayt integratsiyasi bilan)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
