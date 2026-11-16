@@ -1,6 +1,6 @@
-const config = require('./src/config');
-const bot = require('./src/bot');
-const createApi = require('./src/api');
+const config = require('./config');
+const bot = require('./bot');
+const createApi = require('./api');
 
 async function main() {
   // Telegram botni ishga tushirish (long polling)
